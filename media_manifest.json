@@ -1,0 +1,59 @@
+{
+  "hero_image": "assets/photos/auðbert nikka.jpg",
+  "images": [
+    {
+      "title": "sigga myndband.jpg",
+      "file_url": "assets/photos/sigga myndband.jpg",
+      "caption": "Myndband / skjáskot úr minningu."
+    },
+    {
+      "title": "Image (56).jpg",
+      "file_url": "assets/photos/Image (56).jpg",
+      "caption": "Auðbert með nikkuna í bíl."
+    },
+    {
+      "title": "Image (54).jpg",
+      "file_url": "assets/photos/Image (54).jpg",
+      "caption": "Auðbert með nikkuna heima."
+    },
+    {
+      "title": "granit4.jpg",
+      "file_url": "assets/photos/granit4.jpg",
+      "caption": "Granit / hópmynd."
+    },
+    {
+      "title": "granit3.jpg",
+      "file_url": "assets/photos/granit3.jpg",
+      "caption": "Granit / hljómsveit."
+    },
+    {
+      "title": "granit2.jpg",
+      "file_url": "assets/photos/granit2.jpg",
+      "caption": "Granit / portrett."
+    },
+    {
+      "title": "granit1.jpg",
+      "file_url": "assets/photos/granit1.jpg",
+      "caption": "Granit / hljómsveitarmynd."
+    },
+    {
+      "title": "granit.jpg",
+      "file_url": "assets/photos/granit.jpg",
+      "caption": "Granit / tónlistartengd mynd."
+    },
+    {
+      "title": "auðbert nikka.jpg",
+      "file_url": "assets/photos/auðbert nikka.jpg",
+      "caption": "Auðbert með nikkuna. Notuð sem header-mynd."
+    }
+  ],
+  "videos": [
+    {
+      "title": "Sigga myndband",
+      "file_url": "",
+      "thumbnail": "assets/photos/sigga myndband.jpg",
+      "caption": "Hér er myndbandshluti tilbúinn. Settu mp4 skrá í assets/videos og skráðu file_url til að spila myndband inni í vefnum."
+    }
+  ],
+  "nature_covers": []
+}

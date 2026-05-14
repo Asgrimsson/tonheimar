@@ -1,0 +1,40 @@
+{
+  "100 bestu lög lýðveldisins": {
+    "description": "Stór og glæsilegur YouTube-listi með íslenskum lögum sem hafa fylgt þjóðinni í gegnum árin.",
+    "available_titles": [],
+    "wish_list": [],
+    "badge": "Þjóðargersemi",
+    "youtube_playlist": {
+      "title": "100 bestu lög lýðveldisins",
+      "url": "https://www.youtube.com/watch?v=TxB9x1lbsIY&list=OLAK5uy_l1tXjjZLk_hAASDL5HOaj7RFXz6QAwB0U",
+      "video_id": "TxB9x1lbsIY",
+      "list_id": "OLAK5uy_l1tXjjZLk_hAASDL5HOaj7RFXz6QAwB0U",
+      "embed_url": "https://www.youtube.com/embed/TxB9x1lbsIY?list=OLAK5uy_l1tXjjZLk_hAASDL5HOaj7RFXz6QAwB0U"
+    },
+    "youtube_links": [
+      {
+        "title": "Opna playlistann á YouTube",
+        "url": "https://www.youtube.com/watch?v=TxB9x1lbsIY&list=OLAK5uy_l1tXjjZLk_hAASDL5HOaj7RFXz6QAwB0U"
+      }
+    ]
+  },
+  "Gamlar íslenskar perlur": {
+    "description": "Notalegur gullmoli af gömlum íslenskum perlum — fullkomið fyrir kaffibolla, minningar og rólega stemningu.",
+    "available_titles": [],
+    "wish_list": [],
+    "badge": "Gamla góða",
+    "youtube_playlist": {
+      "title": "Gamlar íslenskar perlur",
+      "url": "https://www.youtube.com/watch?v=tqYoJB5WYRY&list=PL7exLb15DOgFzWbZdMwDBuiRyPgYt7aXO",
+      "video_id": "tqYoJB5WYRY",
+      "list_id": "PL7exLb15DOgFzWbZdMwDBuiRyPgYt7aXO",
+      "embed_url": "https://www.youtube.com/embed/tqYoJB5WYRY?list=PL7exLb15DOgFzWbZdMwDBuiRyPgYt7aXO"
+    },
+    "youtube_links": [
+      {
+        "title": "Opna playlistann á YouTube",
+        "url": "https://www.youtube.com/watch?v=tqYoJB5WYRY&list=PL7exLb15DOgFzWbZdMwDBuiRyPgYt7aXO"
+      }
+    ]
+  }
+}
