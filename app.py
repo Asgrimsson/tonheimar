@@ -888,6 +888,157 @@ def inject_css():
         .cover{height:125px;}
         .gallery-card img{height:240px;}
     }
+    
+    /* --- v3.2 Retro gullaldarútlit + læsileg sidebar --- */
+    .stApp{
+        background:
+            radial-gradient(circle at 18% 10%, rgba(247,201,72,.15), transparent 26rem),
+            radial-gradient(circle at 86% 4%, rgba(30,215,96,.13), transparent 24rem),
+            linear-gradient(135deg, #090704 0%, #151006 42%, #050505 100%) !important;
+    }
+    .stApp:before{
+        content:"";
+        position:fixed;
+        inset:0;
+        pointer-events:none;
+        background-image:
+            linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255,255,255,.018) 1px, transparent 1px);
+        background-size:34px 34px;
+        mask-image:linear-gradient(to bottom, rgba(0,0,0,.55), transparent 74%);
+        z-index:0;
+    }
+    section[data-testid="stSidebar"]{
+        background:
+            radial-gradient(circle at 30% 0%, rgba(247,201,72,.18), transparent 16rem),
+            linear-gradient(180deg, rgba(20,14,4,.98), rgba(5,5,5,.98)) !important;
+        border-right:1px solid rgba(247,201,72,.28) !important;
+        box-shadow:18px 0 55px rgba(0,0,0,.38);
+    }
+    section[data-testid="stSidebar"] *{
+        color:#f8f1d4 !important;
+        opacity:1 !important;
+    }
+    section[data-testid="stSidebar"] h1,
+    section[data-testid="stSidebar"] h2,
+    section[data-testid="stSidebar"] h3{
+        color:#ffe8a3 !important;
+        text-shadow:0 0 16px rgba(247,201,72,.22);
+    }
+    section[data-testid="stSidebar"] label,
+    section[data-testid="stSidebar"] p,
+    section[data-testid="stSidebar"] span{
+        color:#f4e6b6 !important;
+    }
+    section[data-testid="stSidebar"] [role="radiogroup"] label{
+        background:rgba(255,255,255,.055);
+        border:1px solid rgba(247,201,72,.16);
+        border-radius:16px;
+        padding:7px 10px;
+        margin:6px 0;
+        transition:all .14s ease;
+    }
+    section[data-testid="stSidebar"] [role="radiogroup"] label:hover{
+        background:rgba(247,201,72,.12);
+        border-color:rgba(247,201,72,.35);
+        transform:translateX(2px);
+    }
+    section[data-testid="stSidebar"] .stButton button{
+        background:linear-gradient(135deg, rgba(247,201,72,.18), rgba(255,255,255,.06)) !important;
+        color:#fff4c2 !important;
+        border:1px solid rgba(247,201,72,.28) !important;
+        box-shadow:0 10px 28px rgba(0,0,0,.22);
+    }
+    section[data-testid="stSidebar"] [data-testid="stToggle"] label{
+        background:rgba(255,255,255,.055);
+        border:1px solid rgba(247,201,72,.18);
+        border-radius:999px;
+        padding:6px 10px;
+    }
+    .hero{
+        background:
+            radial-gradient(circle at 18% 20%, rgba(247,201,72,.22), transparent 20rem),
+            radial-gradient(circle at 76% 20%, rgba(30,215,96,.18), transparent 22rem),
+            linear-gradient(135deg, #1c5f2b, #21410f 48%, #2a1d08) !important;
+        border:1px solid rgba(247,201,72,.30) !important;
+        box-shadow:0 34px 100px rgba(0,0,0,.48), inset 0 1px 0 rgba(255,255,255,.10) !important;
+    }
+    .hero h1{
+        color:#fff7dd !important;
+        text-shadow:0 4px 28px rgba(0,0,0,.48), 0 0 22px rgba(247,201,72,.18);
+    }
+    .person{
+        background:linear-gradient(135deg, #ffd86b, #fff1b3, #d7a52f) !important;
+        color:#1a1204 !important;
+        border:1px solid rgba(255,255,255,.35);
+        box-shadow:0 14px 38px rgba(0,0,0,.28), 0 0 18px rgba(247,201,72,.22) !important;
+    }
+    .section-card, .song-card, .playlist-card, .playlist-grid-card, .memory-machine, .radio-panel, .tv-mode-wrap{
+        border-color:rgba(247,201,72,.20) !important;
+        box-shadow:0 22px 70px rgba(0,0,0,.35) !important;
+    }
+    .song-card{
+        background:
+            radial-gradient(circle at 20% 8%, rgba(247,201,72,.08), transparent 13rem),
+            rgba(19,16,11,.88) !important;
+    }
+    .song-card:hover{
+        border-color:rgba(247,201,72,.45) !important;
+        background:
+            radial-gradient(circle at 20% 8%, rgba(247,201,72,.13), transparent 13rem),
+            rgba(27,22,14,.94) !important;
+    }
+    .cover{
+        border:1px solid rgba(247,201,72,.22);
+        box-shadow:inset 0 1px 0 rgba(255,255,255,.14), 0 14px 32px rgba(0,0,0,.28);
+    }
+    .playlist-showcase{
+        background:
+            radial-gradient(circle at 14% 18%, rgba(247,201,72,.20), transparent 25rem),
+            radial-gradient(circle at 86% 10%, rgba(30,215,96,.16), transparent 24rem),
+            rgba(17,13,7,.72) !important;
+        border-color:rgba(247,201,72,.24) !important;
+    }
+    .playlist-grid-card{
+        background:
+            radial-gradient(circle at 15% 10%, rgba(247,201,72,.18), transparent 18rem),
+            linear-gradient(155deg, rgba(55,40,12,.84), rgba(12,30,17,.84)) !important;
+    }
+    .playlist-grid-title{
+        color:#fff5d4 !important;
+    }
+    .playlist-grid-desc{
+        color:#f0e2bd !important;
+    }
+    .tag, .playlist-badge, .memory-kicker{
+        background:linear-gradient(135deg, #f7c948, #fff1a8) !important;
+        color:#171006 !important;
+    }
+    .now-playing{
+        background:linear-gradient(180deg, rgba(20,14,6,.94), rgba(6,6,6,.98)) !important;
+        border-top:1px solid rgba(247,201,72,.20) !important;
+    }
+    .retro-divider{
+        height:1px;
+        background:linear-gradient(90deg, transparent, rgba(247,201,72,.55), transparent);
+        margin:18px 0;
+    }
+    .retro-welcome{
+        border-radius:28px;
+        border:1px solid rgba(247,201,72,.26);
+        background:
+            radial-gradient(circle at 10% 10%, rgba(247,201,72,.14), transparent 18rem),
+            rgba(255,255,255,.045);
+        padding:18px 20px;
+        margin:16px 0 20px;
+        color:#f9edc8;
+        box-shadow:0 18px 50px rgba(0,0,0,.26);
+    }
+    .retro-welcome b{
+        color:#ffe39a;
+        font-size:1.16rem;
+    }
+
     </style>
     """, unsafe_allow_html=True)
 
@@ -1306,6 +1457,7 @@ playlist_names = ["Enginn"] + list(playlists.keys())
 with st.sidebar:
     st.title("🎵 Tónheimar")
     st.caption(PERSON_NAME)
+    st.markdown("**Gullaldarspilari fjölskyldunnar**")
     st.toggle("Stórir takkar", key="big_mode")
     st.divider()
     page = st.radio("Sýna", ["Lög", "Playlistar", "Myndir", "Minningarvélin", "Spilarinn.is"], index=0)
@@ -1373,12 +1525,11 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-<div class="section-card">
-    <h3>✨ Velkomin í Tónheima</h3>
-    <p style="color:#ddd; font-size:1.02rem; margin-bottom:0;">
-        Hér sameinast lögin, myndirnar og minningarnar í litlu fjölskyldu-tónlistarsafni.
-        Ræstu Minningarvélina, kveiktu á Radio Auðbert eða leyfðu harmonikku-lukkudýrinu að velja næstu stemningu.
-    </p>
+<div class="retro-welcome">
+    <b>✨ Velkomin í Tónheima</b>
+    <div class="retro-divider"></div>
+    Hér sameinast lögin, myndirnar og minningarnar í hlýju, gömlu gullaldar-útliti.
+    Ræstu Minningarvélina, kveiktu á Radio Auðbert eða leyfðu harmonikku-lukkudýrinu að velja næstu stemningu.
 </div>
 """, unsafe_allow_html=True)
 

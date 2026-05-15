@@ -1,20 +1,17 @@
-# Tónheimar v3.1 - set_current autoplay lagað
+# Tónheimar v3.2 - Retro gullaldarútlit og læsileg sidebar
 
-## Lagað í v3.1
+## Nýtt í v3.2
 
-Lagaði villuna:
-
-`TypeError: set_current() got an unexpected keyword argument 'autoplay'`
-
-Ástæða:
-- Minningarvélin og Radio Auðbert kölluðu á:
-  `set_current(idx, autoplay=True)`
-- en `set_current()` tók ekki við `autoplay` í þessari útgáfu.
-
-Lausn:
-- `set_current(idx, autoplay=False)` er nú sveigjanlegt.
-- Radio Auðbert og Minningarvélin ættu að ræsa án villu.
-- Lukkudýralínur uppfærast þegar lag er valið.
+- Lagaði litina í vinstri hliðarvalmynd.
+- Texti/linkar í sidebar eru nú miklu skýrari.
+- Vefurinn fékk nýtt „gömul gullaldar“-útlit:
+  - gylltir tónar
+  - hlýr retro bakgrunnur
+  - plötu/vinyl-tilfinning
+  - meiri kontrast
+  - fallegri playlist-flísar
+  - hlýrri song cards
+- Bætt við retro welcome-korti.
 
 ## Keyra
 
